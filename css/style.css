@@ -4,7 +4,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
+
+:root {
+  /* colors-list */
+  --primary-color: #383cc1;
+  --secondary-color: #3944f7;
+  --success-color: #1faa59;
+  --warning-color: #ff6666;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url(../images/bg.png);
@@ -21,7 +32,7 @@ p {
 /* Utility Classes */
 
 .text-primary {
-  color: #93cb52;
+  color: var(--primary-color);
 }
 
 .l-heading {
@@ -36,13 +47,13 @@ p {
 .btn {
   display: inline-block;
   color: #fff;
-  background: #93cb52;
+  background: var(--primary-color);
   padding: 0.5rem 2rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .btn:hover {
-  background: #7ab436;
+  background: var(--secondary-color);
 }
 
 /* Navbar */
@@ -50,7 +61,6 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-
   top: 0;
   background: #03203c;
   border-bottom-left-radius: 0.5rem;
@@ -73,6 +83,7 @@ p {
   background: #93cb52;
   border-radius: 5px;
 }
+
 /* showcase hero section */
 #showcase {
   height: 100vh;
