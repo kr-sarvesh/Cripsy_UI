@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>alert</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/prism.css" />
     <link rel="stylesheet" href="all.min.css" />
     <link rel="stylesheet" href="./alert.css" />
   </head>
@@ -25,7 +26,7 @@
         </ul>
       </nav>
       <!-- sidebar starts here -->
-      <div class="bottom_nav">
+      <div class="bottom-nav">
         <ul>
           <li><a href="#">Alert</a></li>
           <li><a href="#">Avatar</a></li>
@@ -43,5 +44,63 @@
     </div>
 
     <!-- component showcase starts here -->
+
+    <div class="section">
+      <div class="container">
+        <div class="content-section">
+          <div class="title">
+            <h1>Alert</h1>
+          </div>
+          <div class="content">
+            <h3>
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages. Alerts are
+              available for any length of text, as well as an optional close
+              button. For proper styling, use one of the eight required
+              contextual classes (e.g., .alert-success).
+            </h3>
+          </div>
+        </div>
+        <div class="component-display">
+          <div class="alert alert-primary">
+            <strong class="bold-xl">Primary Alert! &nbsp;</strong>
+            <span>I am a primary alert. Please check it out</span>
+          </div>
+          <div class="alert alert-secondary">
+            <strong class="bold-xl">secondary Alert! &nbsp;</strong>
+            <span>I am an error alert. Please check it out.</span>
+          </div>
+          <div class="alert alert-success">
+            <strong class="bold-xl">Success Alert! &nbsp;</strong>
+            <span>I am a success alert. Please check it out</span>
+          </div>
+          <div class="alert alert-warning">
+            <strong class="bold-xl">Warning Alert! &nbsp;</strong>
+            <span>I am a warning alert. Please check it out</span>
+          </div>
+
+          <pre class="snippet">
+            <code class="language-html">
+              &#x3C;div class=&#x22;alert alert-primary&#x22;&#x3E;
+              &#x3C;strong class=&#x22;bold-xl&#x22;&#x3E;Primary Alert! &#x26;nbsp;&#x3C;/strong&#x3E;
+              &#x3C;span&#x3E;I am a primary alert. Please check it out&#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;alert alert-secondary&#x22;&#x3E;
+              &#x3C;strong class=&#x22;bold-xl&#x22;&#x3E;secondary Alert! &#x26;nbsp;&#x3C;/strong&#x3E;
+              &#x3C;span&#x3E;I am an error alert. Please check it out.&#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;alert alert-success&#x22;&#x3E;
+              &#x3C;strong class=&#x22;bold-xl&#x22;&#x3E;Success Alert! &#x26;nbsp;&#x3C;/strong&#x3E;
+              &#x3C;span&#x3E;I am a success alert. Please check it out&#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;alert alert-warning&#x22;&#x3E;
+              &#x3C;strong class=&#x22;bold-xl&#x22;&#x3E;Warning Alert! &#x26;nbsp;&#x3C;/strong&#x3E;
+              &#x3C;span&#x3E;I am a warning alert. Please check it out&#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;</code>
+          </pre>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="/prism.js"></script>
 </html>
