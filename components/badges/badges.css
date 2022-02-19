@@ -38,3 +38,25 @@
 .badge .dnd {
   background-color: var(--danger-color);
 }
+.code-container {
+  margin-bottom: 2rem;
+}
+.profile-nm {
+  margin-bottom: 1rem;
+}
+
+.badge .number-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 1rem;
+  top: 0px;
+  right: -8px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  color: #f9f9;
+  background-color: var(--secondary-color);
+}
