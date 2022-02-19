@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
- 
 
 * {
   box-sizing: border-box;
@@ -15,6 +14,7 @@
   --secondary-color: #3944f7;
   --success-color: #1faa59;
   --warning-color: #ff6666;
+  --danger-color: #e83a59;
 }
 
 body {
