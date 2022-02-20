@@ -1,0 +1,40 @@
+@import url(/css/allStyles.css);
+@import url(/components/input/input.css);
+
+.section .container .content-section h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.section .container h2 {
+  margin-top: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  height: auto;
+  margin: auto;
+  width: 95.5%;
+  padding: 1rem;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  color: var(--offwhite-color);
+  font-size: x-large;
+}
+.grid .col-1 {
+  grid-template-columns: repeat(auto-fit, auto);
+  padding: 1rem;
+  margin-bottom: 1rem 2rem;
+}
+.col-2 {
+  margin: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+  padding: 1rem 1rem;
+  justify-content: center;
+}
+.col-3 {
+  padding: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(32%, auto));
+  margin: 2rem;
+}
