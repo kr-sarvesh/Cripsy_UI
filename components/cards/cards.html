@@ -25,11 +25,11 @@
       <!-- bottom sidebar starts here -->
       <div class="bottom-nav">
         <ul>
-          <li><a href="#">Alert</a></li>
-          <li><a href="#">Avatar</a></li>
-          <li><a href="#">Badges</a></li>
-          <li><a href="#">Buttons</a></li>
-          <li><a href="#">Card</a></li>
+          <li><a href="/components/alert/alert.html">Alert</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/cards/cards.html">Card</a></li>
           <li><a href="#">Images</a></li>
           <li><a href="#">Input</a></li>
           <li><a href="#">Toast</a></li>
@@ -101,14 +101,14 @@
             </div> 
       </div>
     </div>
-    <div class="container">
+     <div class="container">
       <div class="content-section">
        <div class="content">
           <h3>Card with dismiss</h3>
         </div>  
       </div>
       <div class="code-container">
-        <div class="card card-ecommerce">
+        <div class="card ">
           <div class="product-image-container">
             <img
               class="product-image"
@@ -121,13 +121,82 @@
           
     </div>   
     <pre class="code-snippet">
-      <code class="language-html">&#x3C;div class=&#x22;card-badge&#x22;&#x3E;The Photography&#x3C;/div&#x3E;
-        &#x3C;div class=&#x22;card-title&#x22;&#x3E;ProShot&#x3C;/div&#x3E;
-        &#x3C;div class=&#x22;card-text&#x22;&#x3E;
-          With the latest advancements in imaging and computational photography, ProShot enables unprecedented
-           control over how you capture your world.
-        &#x3C;/div&#x3E;
-      &#x3C;/div&#x3E;</code></pre>
+      <code class="language-html">&#x3C;div class=&#x22;card &#x22;&#x3E;
+          &#x3C;div class=&#x22;product-image-container&#x22;&#x3E;
+            &#x3C;img
+              class=&#x22;product-image&#x22;
+              src=&#x22;https://picsum.photos/300/200/?blur&#x22;
+              alt=&#x22;product-image&#x22;
+            /&#x3E;
+          &#x3C;/div&#x3E;</code></pre>
+
+        
+          <div class="content-section">
+           <div class="content">
+              <h3>Text overlay Card</h3>
+            </div>  
+          </div>
+          <div class="code-container">
+            <div class="card">
+              <div class="product-image-container">
+                 <img
+                class="product-image"
+                src="https://picsum.photos/300/200/?blur"
+                alt="product-image"
+              />
+              <div class="card-overlay-text">Out of stock</div>
+            </div>
+          </div>
+                
+              </div>
+              <pre class="code-snippet">
+                <code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+                  &#x3C;div class=&#x22;product-image-container&#x22;&#x3E;
+                     &#x3C;img
+                    class=&#x22;product-image&#x22;
+                    src=&#x22;https://picsum.photos/300/200/?blur&#x22;
+                    alt=&#x22;product-image&#x22;
+                  /&#x3E;
+                  &#x3C;div class=&#x22;card-overlay-text&#x22;&#x3E;Out of stock&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+              &#x3C;/div&#x3E;</code>
+            </pre>
+
+            </div>
+
+            <!-- Horizontal card -->
+            <div class="intro">
+              <h3>Horizontal Card</h3>
+              
+               </div>  
+
+
+            <div class="card-container">
+                 <div class="card-1">
+                   <div class="card-image-1">
+                   <img class="" src="https://bit.ly/2GkldBe" alt="no-img"/>
+                 </div>                
+                  <div class="card-text-1">
+                      <h2>ProShot</h2>
+                      <p>The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years.</p>
+                    </div>
+                  </div>
+                </div>
+                  <pre class="code-snippet">
+                    <code class="language-html">
+                      &#x3C;div class=&#x22;card-1&#x22;&#x3E;
+                      &#x3C;div class=&#x22;card-image-1&#x22;&#x3E;
+                      &#x3C;img class=&#x22;&#x22; src=&#x22;https://bit.ly/2GkldBe&#x22; alt=&#x22;no-img&#x22;/&#x3E;
+                    &#x3C;/div&#x3E;                
+                     &#x3C;div class=&#x22;card-text-1&#x22;&#x3E;
+                         &#x3C;h2&#x3E;ProShot&#x3C;/h2&#x3E;
+                         &#x3C;p&#x3E;The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years.&#x3C;/p&#x3E;
+                       &#x3C;/div&#x3E;
+                     &#x3C;/div&#x3E;
+                    </code>
+                </pre>
+                </div>
+              </div>
   </body>
   <script src="/prism.js"></script>
 
