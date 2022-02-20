@@ -1,6 +1,5 @@
-@import url(/css/allStyles.css);
 @import url(/components/input/input.css);
-
+@import url(/prism.css);
 .section .container .content-section h2 {
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -37,4 +36,8 @@
   padding: 1rem 1rem;
   grid-template-columns: repeat(auto-fit, minmax(32%, auto));
   margin: 2rem;
+}
+
+.wrapper .snippet-container .snippet {
+  margin-top: 2rem;
 }
