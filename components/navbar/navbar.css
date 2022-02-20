@@ -1,0 +1,11 @@
+@import url(/css/allStyles.css);
+@import url(/components/alert/alert.css);
+@import url(/prism.css);
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin-top: 1rem;
+}
