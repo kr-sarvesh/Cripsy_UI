@@ -2,6 +2,7 @@
 @import url(/components/alert/alert.css);
 @import url(/prism.css);
 @import url(/css/all.min.css);
+
 body {
   background-image: none;
 }
@@ -21,10 +22,12 @@ body {
 
 .avatar-cicular {
   border-radius: 50%;
+  margin: 1rem;
 }
 
-.avatar.avatar-square {
+.avatar-square {
   border-radius: 0.5rem;
+  margin: 1rem;
 }
 
 .sm {
@@ -42,6 +45,11 @@ body {
   height: 5.4rem;
 }
 
-.component-display {
+.avatar-display {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--offwhite-color);
 }
