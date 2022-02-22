@@ -46,7 +46,7 @@ body {
 }
 .card-badge-dismiss {
   position: absolute;
-  top: 95rem;
+  top: 91rem;
   right: 54rem;
   background-color: var(--primary-color);
   color: var(--offwhite-color);
@@ -71,12 +71,49 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: var(--off-white);
+  color: var(--offwhite-color);
   font-size: 2.4rem;
   text-align: center;
 }
+.button {
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
 
-.card-horizontal {
-  flex-flow: row;
-  max-width: 60rem;
+/* horizontal card */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-1 {
+  display: flex;
+  background-color: var(--offwhite-color);
+  border-radius: 0.5rem;
+}
+.card-image-1 img {
+  width: 80%;
+  min-height: 100%;
+  margin: 0 17rem;
+  border-top-left-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.card-text-1 {
+  padding: 0.5rem;
+  margin: 0 10rem;
+  width: 60%;
+}
+
+.intro h3 {
+  margin-bottom: 2rem;
+}
+.card-container .code-snippet {
+  margin-top: 1rem;
 }
