@@ -1,0 +1,32 @@
+@import url(/css/allStyles.css);
+@import url(/components/alert/alert.css);
+
+.input-group {
+  display: flex;
+  flex-flow: column;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: var(--primary-color);
+}
+.input {
+  border: 1px solid var(--primary-color);
+  padding: 0.8rem 1.4rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+.errortxt {
+  color: var(--danger-color);
+}
+
+.input-group.error label {
+  color: var(--danger-color);
+}
+
+.input-group.error input {
+  border: 1px solid var(--danger-color);
+}
+
+.input-group.error input:focus {
+  border: 1px solid var(--danger-hover);
+}

@@ -1,0 +1,82 @@
+@import url(/prism.css);
+@import url(/css/style.css);
+@import url(/components/avatar/avatar.css);
+
+body {
+  background-image: none;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+  flex-flow: column;
+  height: max-content;
+  max-width: 30rem;
+  background-color: var(--offwhite-color);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 25rem;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+.card-title {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.card-text {
+  background-color: var(--offwhite-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4em;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+}
+.card-badge {
+  position: absolute;
+  top: 48rem;
+  left: 35rem;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  color: var(--offwhite-color);
+}
+.card-badge-dismiss {
+  position: absolute;
+  top: 95rem;
+  right: 54rem;
+  background-color: var(--primary-color);
+  color: var(--offwhite-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+  transition: 800ms;
+}
+.card-badge-dismiss:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product-image-container {
+  position: relative;
+}
+
+.card-overlay-text {
+  position: absolute;
+  transition: 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--off-white);
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.card-horizontal {
+  flex-flow: row;
+  max-width: 60rem;
+}
