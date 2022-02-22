@@ -32,8 +32,8 @@
           <li><a href="/components/cards/cards.html">Card</a></li>
           <li><a href="/components/images/images.html">Images</a></li>
           <li><a href="/components/input/input.html">Input</a></li>
-          <li><a href="#">Toast</a></li>
-          <li><a href="#">Grids</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/grid/grid.html">Grids</a></li>
           <li><a href="/components/navbar/navbar.html">Navbar</a></li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
               more
             </h3>
           </div>
-          <div class="component-display">
+          <div class="btn-compo">
             <button class="btn btn-primary">Primary</button>
 
             <button class="btn btn-secondary">Secondary</button>
@@ -66,6 +66,7 @@
 
             <button class="btn btn-link">link</button>
           </div>
+          <div class="component-display">
           <pre class="snippet">
             <code class="language-html">
               &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Primary&#x3C;/button&#x3E;
@@ -81,12 +82,14 @@
               &#x3C;button class=&#x22;btn btn-link&#x22;&#x3E;link&#x3C;/button&#x3E;</code>
           </pre>
         </div>
+        </div>
         <div class="outlineBtn">
           <h3>
             Use Outline style button for actions in forms, actions and many more
           </h3>
         </div>
-        <div class="component-display">
+
+        <div class="btn-compo">
           <button class="btn btn-primary-outline">Primary</button>
 
           <button class="btn btn-secondary-outline">Secondary</button>
@@ -99,20 +102,24 @@
 
           <button class="btn btn-link-outline">link</button>
         </div>
+       <div class="component-display">
         <pre class="snippet">
         <code class="language-html">
+          &#x3C;div class=&#x22;component-display&#x22;&#x3E;
           &#x3C;button class=&#x22;btn btn-primary-outline&#x22;&#x3E;Primary&#x3C;/button&#x3E;
-                        
-           &#x3C;button class=&#x22;btn btn-secondary-outline&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
-                        
-           &#x3C;button class=&#x22;btn btn-danger-outline&#x22;&#x3E;Danger&#x3C;/button&#x3E;
-                        
-           &#x3C;button class=&#x22;btn btn-success-outline&#x22;&#x3E;Success&#x3C;/button&#x3E;
-                        
-           &#x3C;button class=&#x22;btn btn-warning-outline&#x22;&#x3E;Warning&#x3C;/button&#x3E;
-                        
-           &#x3C;button class=&#x22;btn btn-link-outline&#x22;&#x3E;link&#x3C;/button&#x3E;</code>
-      </pre>
+
+          &#x3C;button class=&#x22;btn btn-secondary-outline&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+
+          &#x3C;button class=&#x22;btn btn-danger-outline&#x22;&#x3E;Danger&#x3C;/button&#x3E;
+
+          &#x3C;button class=&#x22;btn btn-success-outline&#x22;&#x3E;Success&#x3C;/button&#x3E;
+
+          &#x3C;button class=&#x22;btn btn-warning-outline&#x22;&#x3E;Warning&#x3C;/button&#x3E;
+
+          &#x3C;button class=&#x22;btn btn-link-outline&#x22;&#x3E;link&#x3C;/button&#x3E;
+          &#x3C;/div&#x3E;</code>
+       </pre>
+               </div>
         <div class="outlineBtn">
           <h3>
             Buttons with Icons<span class="icon">
@@ -120,20 +127,31 @@
             >
           </h3>
         </div>
-        <div class="component-display">
-        <button class="btn btn-primary-outline"><ion-icon name="save-outline"></ion-icon> Save Now</button>
-        <button class="btn btn-primary"> <ion-icon name="save"></ion-icon> Save Now</button>
+        <div class="btn-compo">
+        <button class="btn btn-primary-outline">
+        <ion-icon name="save-outline"></ion-icon> Save Now</button>
+        <button class="btn btn-primary">
+        <ion-icon name="save"></ion-icon> Save Now
+        </button>
           
-      </div>
-      <pre class="snippet">
-        <code class="language-html">
-          &#x3C;button class=&#x22;btn btn-primary-outline&#x22;&#x3E;&#x3C;ion-icon name=&#x22;save-outline&#x22;&#x3E;&#x3C;/ion-icon&#x3E; Save Now&#x3C;/button&#x3E;
-          &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E; &#x3C;ion-icon name=&#x22;save&#x22;&#x3E;&#x3C;/ion-icon&#x3E; save now&#x3C;/button&#x3E;</code>
-      </pre>
+       </div>
+       <div class="component-display">
+        <pre class="snippet">
+        <code class="language-html">  &#x3C;div class=&#x22;component-display&#x22;&#x3E;
+          &#x3C;button class=&#x22;btn btn-primary-outline&#x22;&#x3E;
+          &#x3C;ion-icon name=&#x22;save-outline&#x22;&#x3E;&#x3C;/ion-icon&#x3E; Save Now&#x3C;/button&#x3E;
+          &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;
+          &#x3C;ion-icon name=&#x22;save&#x22;&#x3E;&#x3C;/ion-icon&#x3E; Save Now
+          &#x3C;/button&#x3E;
+          &#x3C;/div&#x3E;</code>
+       </pre>
+              
+       </div>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
    </body>
-  
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="/prism.js"></script>
 </html>
