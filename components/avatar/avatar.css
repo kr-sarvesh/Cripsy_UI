@@ -45,14 +45,11 @@ body {
   height: 5.4rem;
 }
 
-.avatar-display .avatar {
-  display: flex;
-  width: max-content;
-}
 .avatar-display {
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
   justify-content: center;
+  background-color: var(--offwhite-color);
 }
