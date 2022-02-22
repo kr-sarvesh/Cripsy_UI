@@ -120,3 +120,17 @@ body {
   background-color: var(--primary-color);
   color: var(--offwhite-color);
 }
+
+.btn-compo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.component-display {
+  background-color: var(--offwhite-color);
+  border-radius: 1rem;
+}

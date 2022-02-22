@@ -46,7 +46,7 @@ body {
 }
 .card-badge-dismiss {
   position: absolute;
-  top: 91rem;
+  top: 102rem;
   right: 54rem;
   background-color: var(--primary-color);
   color: var(--offwhite-color);

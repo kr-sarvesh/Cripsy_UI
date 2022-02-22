@@ -1,5 +1,6 @@
-@import url(/components/input/input.css);
+@import url(/components/alert/alert.css);
 @import url(/prism.css);
+
 .section .container .content-section h2 {
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -15,7 +16,7 @@
   margin: auto;
   width: 95.5%;
   padding: 1rem;
-  justify-content: center;
+  justify-content: space-around;
   background-color: var(--secondary-color);
   border-radius: 0.5rem;
   color: var(--offwhite-color);
@@ -27,10 +28,14 @@
   margin-bottom: 1rem 2rem;
 }
 .col-2 {
-  margin: 2rem;
+  margin: 2rem auto;
   grid-template-columns: repeat(auto-fit, minmax(50%, auto));
   padding: 1rem 1rem;
   justify-content: center;
+}
+.col-2 .secondarybg {
+  border: 0.1rem solid var(--offwhite-color);
+  border-radius: 0.1rem;
 }
 .col-3 {
   padding: 1rem 1rem;
@@ -38,6 +43,16 @@
   margin: 2rem;
 }
 
-.wrapper .snippet-container .snippet {
-  margin-top: 2rem;
+.col-3 .primarybg {
+  border: 0.1rem solid var(--offwhite-color);
+  border-radius: 0.1rem;
+}
+
+.col-3 .secondarybg {
+  border: 0.1rem solid var(--offwhite-color);
+  border-radius: 0.1rem;
+}
+.col-3 .warningbg {
+  border: 0.1rem solid var(--offwhite-color);
+  border-radius: 0.1rem;
 }

@@ -1,5 +1,6 @@
 @import url(/css/allStyles.css);
 @import url(/components/alert/alert.css);
+@import url(/prism.css);
 
 .input-group {
   display: flex;
@@ -11,22 +12,28 @@
 .input {
   border: 1px solid var(--primary-color);
   padding: 0.8rem 1.4rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   border-radius: 5px;
+  width: auto;
 }
 
 .errortxt {
   color: var(--danger-color);
 }
 
+.input-group {
+  font-weight: 900;
+  text-align: center;
+}
+
 .input-group.error label {
-  color: var(--danger-color);
+  color: var(--primary-color);
 }
 
 .input-group.error input {
-  border: 1px solid var(--danger-color);
+  border: 1px solid var(--primary-color);
 }
 
 .input-group.error input:focus {
-  border: 1px solid var(--danger-hover);
+  border: 1px solid var(--warning-color);
 }

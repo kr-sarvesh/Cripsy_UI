@@ -29,10 +29,10 @@
           <li><a href="/components/avatar/avatar.html">Avatar</a></li>
           <li><a href="/components/badges/badges.html">Badges</a></li>
           <li><a href="/components/buttons/buttons.html">Buttons</a></li>
-          <li><a href="#">Card</a></li>
-          <li><a href="#">Images</a></li>
+          <li><a href="/components/cards/cards.html">Card</a></li>
+          <li><a href="/components/images/images.html">Images</a></li>
           <li><a href="/components/input/input.html">Input</a></li>
-          <li><a href="#">Toast</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
           <li><a href="/components/grid/grid.html">Grids</a></li>
           <li><a href="/components/navbar/navbar.html">Navbar</a></li>
         </ul>
@@ -60,14 +60,37 @@
             <div class="input-group error">
               <label>Password *</label>
               <input
-                type="text"
+                type="password"
                 class="input"
               />
-              <span class="errortxt">Password is incorrect</span>
+              <span class="errortxt">Password is wrong</span>
             </div>
+          </div>
+          <div class="component-display">
+            <pre class="code-snippet">
+              <code class="language-html">&#x3C;div class=&#x22;code-container&#x22;&#x3E;
+            &#x3C;div class=&#x22;input-group&#x22;&#x3E;
+              &#x3C;label&#x3E;Username *&#x3C;/label&#x3E;
+              &#x3C;input
+                type=&#x22;text&#x22;
+                class=&#x22;input&#x22;
+              /&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;input-group error&#x22;&#x3E;
+              &#x3C;label&#x3E;Password *&#x3C;/label&#x3E;
+              &#x3C;input
+                type=&#x22;password&#x22;
+                class=&#x22;input&#x22;
+              /&#x3E;
+              &#x3C;span class=&#x22;errortxt&#x22;&#x3E;Password is wrong&#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+          &#x3C;/div&#x3E;</code>
+            </pre>
           </div>
      </div>
 
     </div>
   </body>
+  <script src="/prism.js"></script>
+
 </html>

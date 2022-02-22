@@ -1,5 +1,6 @@
 @import url(/css/allStyles.css);
 @import url(/components/alert/alert.css);
+@import url(/prism.css);
 
 .toast {
   padding: 0.5rem;
