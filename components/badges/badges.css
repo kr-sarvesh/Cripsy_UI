@@ -9,8 +9,9 @@
 .badge {
   position: relative;
   width: max-content;
-  padding: 0.2rem;
+  border-radius: 50%;
   margin: 0 0.5rem;
+  background: var(--offwhite-color);
 }
 
 .badge .status-badge {
@@ -44,12 +45,15 @@
 
 .badge .number-badge {
   position: absolute;
+  display: flex;
+  justify-content: center;
   font-size: 0.7rem;
   font-weight: bold;
-  top: -8px;
+  top: -10px;
   right: 0.4rem;
   height: 0.5px;
-  width: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   border: 15px solid transparent;
   color: var(--offwhite-color);
