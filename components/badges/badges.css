@@ -1,8 +1,5 @@
 @import url(/css/style.css);
-@import url(/components/alert/alert.css);
 @import url(/components/avatar/avatar.css);
-@import url(/prism.css);
-@import url(/css/all.min.css);
 
 .badge-container {
   display: flex;
