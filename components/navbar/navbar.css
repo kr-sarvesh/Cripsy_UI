@@ -9,3 +9,8 @@
 .container {
   margin-top: 1rem;
 }
+
+.nav-justified > li > a {
+  padding: 15px 0;
+  text-align: center;
+}
