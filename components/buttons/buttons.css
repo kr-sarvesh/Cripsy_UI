@@ -1,6 +1,7 @@
 @import url(/prism.css);
 @import url(/components/alert/alert.css);
 @import url(/css/style.css);
+
 body {
   background-image: none;
 }
@@ -133,4 +134,16 @@ body {
 .component-display {
   background-color: var(--offwhite-color);
   border-radius: 1rem;
+}
+
+.float-btn-comp .float-btn {
+  display: flex;
+  align-items: center;
+}
+
+#btn-float-container{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

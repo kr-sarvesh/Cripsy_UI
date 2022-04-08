@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cards.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Cards Component</title>
   </head>
   <body>
@@ -75,25 +76,30 @@
 
         
         <div class="container">
-          <div class="content-section">
+          
            <div class="content">
               <h3>Card with Badges</h3>
             </div>   
             <div class="code-container">
               <div class="card card-ecommerce">
+
                 <div class="product-image-container">
                   <img
                     class="product-image"
                     src="https://picsum.photos/300/200/?blur"
                     alt="product-image"
                   />
-                </div>
-                <div class="card-badge">The Photography</div>
+                 </div>
                 <div class="card-title">ProShot</div>
                 <div class="card-text">
                   With the latest advancements in imaging and computational photography, ProShot enables unprecedented control over how you capture your world.
                 </div>
+                <div class="card-badge">The Photography</div>
+
               </div>
+              
+
+              
               <div class="component-display">
 
               <pre class="code-snippet">
@@ -108,28 +114,27 @@
               </pre>
              </div>
             </div> 
-      </div>
+    
     </div>
 
-     <div class="container">
+     <div class="container dismiss-container">
       <div class="content-section">
        <div class="content">
           <h3>Card with dismiss</h3>
         </div>  
       </div>
-      <div class="code-container">
-        <div class="card ">
+          <div class="card ">
           <div class="product-image-container">
             <img
               class="product-image"
               src="https://picsum.photos/300/200/?blur"
               alt="product-image"
             />
-          </div>
-          <div class="card-badge-dismiss">X</div>
+            <div class="card-badge-dismiss">X</div>
+          </div>       
           <div class="card-title">Proshot details</div> 
           </div>  
-    </div>   
+        </div> 
     <div class="component-display">
     <pre class="code-snippet">
       <code class="language-html">&#x3C;div class=&#x22;card &#x22;&#x3E;
@@ -142,13 +147,13 @@
           &#x3C;/div&#x3E;</code></pre>
         </div>
         
-          <div class="content-section">
+          <div class="container content-section">
            <div class="content">
               <h3>Text overlay Card</h3>
             </div>  
           </div>
 
-          <div class="code-container">
+          <div class="container code-container">
             <div class="card">
               <div class="product-image-container">
                  <img
@@ -177,11 +182,11 @@
           </div>
           
 
-          <div class="content-section">
+          <div class="container content-section">
             <div class="content">
                <h3>Horizontal Card</h3>
              </div>  
-           </div>
+           
            <div class="card-container">
             <div class="card-1">
               <div class="card-image-1">
@@ -193,7 +198,7 @@
                </div>
              </div>
            </div>
-
+          </div>
                <div class="component-display">
                <pre class="code-snippet">
                  <code class="language-html">
@@ -212,7 +217,52 @@
                    &#x3C;/div&#x3E;
                  &#x3C;/div&#x3E;</code>
              </pre>
-           </div>            
+           </div> 
+           
+        
+           </div> 
+      
+           <div class="container content-section ">
+            <div class="content">
+               <h3>Card with shadow</h3>
+             </div>  
+           
+           <div class="card-container" id="shadow">
+            <div class="card-1">
+              <div class="card-image-1">
+              <img class="" src="https://bit.ly/2GkldBe" alt="no-img"/>
+            </div>                
+             <div class="card-text-1">
+                 <h2>ProShot</h2>
+                 <p>The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years.</p>
+               </div>
+             </div>
+           </div>
+          </div>
+               <div class="component-display">
+               <pre class="code-snippet">
+                 <code class="language-html">
+                   &#x3C;div class=&#x22;card-container&#x22;&#x3E;
+                  &#x3C;div class=&#x22;card-1&#x22;&#x3E;
+                    &#x3C;div class=&#x22;card-image-1&#x22;&#x3E;
+                    &#x3C;img class=&#x22;&#x22; src=&#x22;https://bit.ly/2GkldBe&#x22; 
+                    alt=&#x22;no-img&#x22;/&#x3E;
+                  &#x3C;/div&#x3E;                
+                   &#x3C;div class=&#x22;card-text-1&#x22;&#x3E;
+                       &#x3C;h2&#x3E;ProShot&#x3C;/h2&#x3E;
+                       &#x3C;p&#x3E;The highly anticipated world championship fight will t
+                       ake place at 10am and is the second major boxing blockbuster in the 
+                       nation after 43 years.&#x3C;/p&#x3E;
+                     &#x3C;/div&#x3E;
+                   &#x3C;/div&#x3E;
+                 &#x3C;/div&#x3E;</code>
+             </pre>
+           </div> 
+           
+        
+           </div> 
+      
+
   </body>
   <script src="/prism.js"></script>
 

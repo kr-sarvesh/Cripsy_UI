@@ -12,49 +12,56 @@ body {
   flex-flow: column;
   height: max-content;
   max-width: 30rem;
-  background-color: var(--offwhite-color);
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem 25rem;
   justify-content: center;
   align-items: center;
   transition: 500ms;
+  background-color:var(--offwhite-color);
 }
+
+
 .card-title {
-  color: var(--primary-color);
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   font-weight: 500;
 }
-.card-text {
-  background-color: var(--offwhite-color);
+
+.card .card-text {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4em;
-  width: auto;
+  width: 350px;
   text-align: center;
   justify-content: center;
 }
-.card-badge {
-  position: absolute;
-  top: 48rem;
-  left: 35rem;
+
+.card .card-badge {
   background-color: var(--primary-color);
+  border: 0.2rem var(--primary-color) solid;
+  border-radius: .3rem;
+  top: -25rem;
+  left: -5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
   font-size: 1.4rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem .5rem;
   color: var(--offwhite-color);
+  
 }
+
 .card-badge-dismiss {
+  
   position: absolute;
-  top: 102rem;
-  right: 54rem;
-  background-color: var(--primary-color);
-  color: var(--offwhite-color);
-  font-weight: 600;
-  font-size: 1.4rem;
-  padding: 0.5rem 1rem;
-  opacity: 0.8;
   transition: 800ms;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+  top: -.1rem;
+  color: var(--primary-color);
+  
 }
 .card-badge-dismiss:hover {
   opacity: 1;
@@ -94,6 +101,7 @@ body {
 
 .card-1 {
   display: flex;
+  align-content: center;
   background-color: var(--offwhite-color);
   border-radius: 0.5rem;
 }
@@ -111,9 +119,8 @@ body {
   width: 60%;
 }
 
-.intro h3 {
-  margin-bottom: 2rem;
+#shadow{
+  box-shadow: 6px 6px 40px 10px var(--offwhite-color);
+  transform: translateX(20PX);
 }
-.card-container .code-snippet {
-  margin-top: 1rem;
-}
+
