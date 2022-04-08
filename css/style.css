@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+@import url(/prism.css);
+@import url(/components/alert/alert.css);
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,6 +26,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url(../images/bg.png);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -48,7 +53,7 @@ p {
 
 .btn {
   display: inline-block;
-  color: #fff;
+  color: var(--offwhite-color);
   background: var(--primary-color);
   padding: 0.5rem 2rem;
   border: none;
@@ -88,9 +93,10 @@ p {
 
 /* showcase hero section */
 #showcase {
-  height: 100vh;
+  height: 400px;
   color: #fff;
 }
+
 #showcase .showcase-content {
   display: flex;
   flex-direction: column;
@@ -100,3 +106,23 @@ p {
   height: 100%;
   padding: 0 2rem;
 }
+
+ #hero{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+   line-height: 3rem;
+ }
+
+ #hero .code-display{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin: 1rem auto;
+   
+ }
