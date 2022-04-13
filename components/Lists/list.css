@@ -1,1 +1,52 @@
-@import url(/components/navbar/navbar.css);
+@import url(/components/alert/alert.css);
+@import url(/components/Typography/typo.css);
+
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+.list-container .list{
+  margin: 1rem;
+  
+}
+
+.list-style-circle .list_item 
+{
+  list-style-type: circle;
+  
+}
+
+.list-style-disc .list_item{
+  list-style-type: disc;
+}
+
+.list-style-number .list_item{
+  list-style-type: decimal;
+}
+
+.list-style-alpha-upper .list_item{
+  list-style-type: upper-alpha;
+}
+.list-style-lower-upper .list_item{
+  list-style-type: lower-alpha;
+}
+
+.stack-list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+
+.stlist .list-item{
+  position: relative;
+  border: 0.3px solid;
+  padding:0.5rem;
+  font-size: larger;
+  
+}
