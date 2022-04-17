@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="modal.css" />
-    <title>Typography</title>
+    <title>Modals</title>
   </head>
   <body>
     <div class="wrapper">
@@ -39,9 +39,52 @@
           <li><a href="/components/Lists/list.html">Lists</a></li>
           <li><a href="/components/Modal/modal.html">Modal</a></li>
           <li><a href="/components/Rating/rating.html">Rating</a></li>
-          <li><a href="/components/Range Slider/range.html">Range-Slider</a></li>
           
         </ul>
       </div>
+      <div class="container">
+        <h3>Modal</h3>
+     <h5>A modal is a dialog box/popup window that is displayed on top of the current page:</h5>
+    </div>
+    
+    <div class="modal" id="modal-one" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-header">
+               <h2>Modal in CSS?</h2>
+       <a href="#modal-one" class="btn-close" aria-hidden="true">×</a>
+  
+          </div>
+          <div class="modal-body">
+              <p>One modal example here! :D</p>
+          </div>
+          <div class="modal-footer"> <a href="#modal-one" class="btn">Nice!</a>
+  
+          </div>
+      </div>
+  </div>
+  <div class="wrap"> <a href="#" class="btn btn-big">Modal!</a>
+  
+  </div>
+  <div class="component-display">
+    <pre class="snippet">
+      <code class="language-html"> &#x3C;div class=&#x22;modal&#x22; id=&#x22;modal-one&#x22; aria-hidden=&#x22;true&#x22;&#x3E;
+        &#x3C;div class=&#x22;modal-dialog&#x22;&#x3E;
+            &#x3C;div class=&#x22;modal-header&#x22;&#x3E;
+                 &#x3C;h2&#x3E;Modal in CSS?&#x3C;/h2&#x3E;
+         &#x3C;a href=&#x22;#modal-one&#x22; class=&#x22;btn-close&#x22; aria-hidden=&#x22;true&#x22;&#x3E;&#xD7;&#x3C;/a&#x3E;
+    
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;modal-body&#x22;&#x3E;
+                &#x3C;p&#x3E;One modal example here! :D&#x3C;/p&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;modal-footer&#x22;&#x3E; &#x3C;a href=&#x22;#modal-one&#x22; class=&#x22;btn&#x22;&#x3E;Nice!&#x3C;/a&#x3E;
+    
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E; </code></pre>
+  </div>
+   
   </body>
+  <script src="/prism.js"></script>
+
 </html>
