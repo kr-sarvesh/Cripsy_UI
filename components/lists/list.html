@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="list.css" />
+
+    <title>Lists</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- NavBar starts here  -->
+      <nav id="navbar">
+        <h1 class="logo">
+          <span class="text-primary">
+            <i class="fa-brands fa-uikit"></i>
+            CRIPSY </span
+          >UI
+        </h1>
+        <ul>
+          <li><a href="/components/alert/alert.html">DOCS</a></li>
+          <li><a href="https://github.com/kr-sarvesh/Cripsy_UI">GITHUB</a></li>
+        </ul>
+      </nav>
+      <!-- bottom sidebar starts here -->
+      <div class="bottom-nav">
+        <ul>
+          <li><a href="/components/alert/alert.html">Alert</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/cards/cards.html">Card</a></li>
+          <li><a href="/components/images/images.html">Images</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/grid/grid.html">Grids</a></li>
+          <li><a href="/components/navbar/navbar.html">Navbar</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+          <li><a href="/components/Lists/list.html">Lists</a></li>
+          <li><a href="/components/Modal/modal.html">Modal</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <h3>LISTS</h3>
+
+          <h5>
+            List groups are a flexible and powerful component for displaying a
+            series of content.
+          </h5>
+          <h3>Normal Lists</h3>
+          <div class="list-container">
+            <ol class="list list-style-circle">
+              <li class="list_item">item 1</li>
+              <li class="list_item">item 2</li>
+              <li class="list_item">item 3</li>
+            </ol>
+
+            <ol class="list list-style-disc">
+              <li class="list_item">item 1</li>
+              <li class="list_item">item 2</li>
+              <li class="list_item">item 3</li>
+            </ol>
+
+            <ol class="list list-style-number">
+              <li class="list_item">item 1</li>
+              <li class="list_item">item 2</li>
+              <li class="list_item">item 3</li>
+            </ol>
+
+            <ol class="list list-style-alpha-upper">
+              <li class="list_item">item 1</li>
+              <li class="list_item">item 2</li>
+              <li class="list_item">item 3</li>
+            </ol>
+            <ol class="list list-style-lower-upper">
+              <li class="list_item">item 1</li>
+              <li class="list_item">item 2</li>
+              <li class="list_item">item 3</li>
+            </ol>
+          </div>
+        </div>
+        <div class="component-display">
+          <pre class="code-snippet">
+            <code class="language-html">&#x3C;div class=&#x22;list-container&#x22;&#x3E;
+              &#x3C;ol class=&#x22;list list-style-circle&#x22;&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+              &#x3C;/ol&#x3E;
+  
+              &#x3C;ol class=&#x22;list list-style-disc&#x22;&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+              &#x3C;/ol&#x3E;
+  
+              &#x3C;ol class=&#x22;list list-style-number&#x22;&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+              &#x3C;/ol&#x3E;
+  
+              &#x3C;ol class=&#x22;list list-style-alpha-upper&#x22;&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+              &#x3C;/ol&#x3E;
+              &#x3C;ol class=&#x22;list list-style-lower-upper&#x22;&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+                &#x3C;li class=&#x22;list_item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+              &#x3C;/ol&#x3E;
+            &#x3C;/div&#x3E;</code>
+          </pre>
+        </div>
+      </div>
+      <div class="container">
+        <h3>Stacked List</h3>
+        <div class="stack-list-container">
+          <ul class="stlist stacked-list">
+            <li class="list-item">item 1</li>
+            <li class="list-item">item 2</li>
+            <li class="list-item">item 3</li>
+            <li class="list-item">item 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="component-display">
+        <pre class="code-snippet">
+          <code class="language-html">&#x3C;div class=&#x22;stack-list-container&#x22;&#x3E;
+          &#x3C;ul class=&#x22;stlist stacked-list&#x22;&#x3E;
+            &#x3C;li class=&#x22;list-item&#x22;&#x3E;item 1&#x3C;/li&#x3E;
+            &#x3C;li class=&#x22;list-item&#x22;&#x3E;item 2&#x3C;/li&#x3E;
+            &#x3C;li class=&#x22;list-item&#x22;&#x3E;item 3&#x3C;/li&#x3E;
+            &#x3C;li class=&#x22;list-item&#x22;&#x3E;item 4&#x3C;/li&#x3E;
+          &#x3C;/ul&#x3E;
+        &#x3C;/div&#x3E;</code></pre>
+      </div>
+    </div>
+  </body>
+  <script src="/prism.js"></script>
+</html>
