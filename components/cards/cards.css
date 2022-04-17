@@ -1,5 +1,4 @@
 @import url(/prism.css);
-@import url(/css/style.css);
 @import url(/components/avatar/avatar.css);
 
 body {
@@ -117,8 +116,6 @@ body {
 .card-container .code-snippet {
   margin-top: 1rem;
 }
-<<<<<<< Updated upstream
-=======
 
 .card-2 {
   display: flex;
@@ -128,4 +125,3 @@ body {
   transition: 1.1s all;
   cursor: pointer;
 }
->>>>>>> Stashed changes
