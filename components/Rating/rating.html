@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="rating.css" />
-    <title>Typography</title>
+    <title>Rating</title>
   </head>
   <body>
     <div class="wrapper">
@@ -39,9 +39,43 @@
           <li><a href="/components/Lists/list.html">Lists</a></li>
           <li><a href="/components/Modal/modal.html">Modal</a></li>
           <li><a href="/components/Rating/rating.html">Rating</a></li>
-          <li><a href="/components/Range Slider/range.html">Range-Slider</a></li>
           
         </ul>
       </div>
+      <div class="container">
+        <h3>Rating</h3>
+        <h5>Star rating is a valuable metric that tells others what most of the people think about a certain product, an app or a movie in general.</h5>
+        <div class="container star-rating">
+          <input type="radio" id="5-stars" name="rating" value="5" />
+          <label for="5-stars" class="star">&#9733;</label>
+          <input type="radio" id="4-stars" name="rating" value="4" />
+          <label for="4-stars" class="star">&#9733;</label>
+          <input type="radio" id="3-stars" name="rating" value="3" />
+          <label for="3-stars" class="star">&#9733;</label>
+          <input type="radio" id="2-stars" name="rating" value="2" />
+          <label for="2-stars" class="star">&#9733;</label>
+          <input type="radio" id="1-star" name="rating" value="1" />
+          <label for="1-star" class="star">&#9733;</label>
+        </div>
+        <div class="component-display">
+          <pre class="snippet">
+          <code class="language-html">
+            &#x3C;div class=&#x22;container star-rating&#x22;&#x3E;
+          &#x3C;input type=&#x22;radio&#x22; id=&#x22;5-stars&#x22; name=&#x22;rating&#x22; value=&#x22;5&#x22; /&#x3E;
+          &#x3C;label for=&#x22;5-stars&#x22; class=&#x22;star&#x22;&#x3E;&#x26;#9733;&#x3C;/label&#x3E;
+          &#x3C;input type=&#x22;radio&#x22; id=&#x22;4-stars&#x22; name=&#x22;rating&#x22; value=&#x22;4&#x22; /&#x3E;
+          &#x3C;label for=&#x22;4-stars&#x22; class=&#x22;star&#x22;&#x3E;&#x26;#9733;&#x3C;/label&#x3E;
+          &#x3C;input type=&#x22;radio&#x22; id=&#x22;3-stars&#x22; name=&#x22;rating&#x22; value=&#x22;3&#x22; /&#x3E;
+          &#x3C;label for=&#x22;3-stars&#x22; class=&#x22;star&#x22;&#x3E;&#x26;#9733;&#x3C;/label&#x3E;
+          &#x3C;input type=&#x22;radio&#x22; id=&#x22;2-stars&#x22; name=&#x22;rating&#x22; value=&#x22;2&#x22; /&#x3E;
+          &#x3C;label for=&#x22;2-stars&#x22; class=&#x22;star&#x22;&#x3E;&#x26;#9733;&#x3C;/label&#x3E;
+          &#x3C;input type=&#x22;radio&#x22; id=&#x22;1-star&#x22; name=&#x22;rating&#x22; value=&#x22;1&#x22; /&#x3E;
+          &#x3C;label for=&#x22;1-star&#x22; class=&#x22;star&#x22;&#x3E;&#x26;#9733;&#x3C;/label&#x3E;
+        &#x3C;/div&#x3E;</code></pre>
+                
+         </div>
+      </div>
   </body>
+  <script src="/prism.js"></script>
+
 </html>
