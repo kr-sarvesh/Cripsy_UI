@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url(/css/style.css);
-@import url(/components/Rating/rating.css);
+@import url(/components/Typography/typo.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -100,4 +101,10 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
+  
+}
+
+#hero {
+ margin-top: 1rem;
+ background-color: red;
 }
